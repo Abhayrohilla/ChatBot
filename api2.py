@@ -20,7 +20,7 @@ app.add_middleware(
 )
 
 # Load spaCy model
-nlp = spacy.load('en_core_web_sm')
+# nlp = spacy.load('en_core_web_sm')
 
 # Enum for predefined job roles
 class JobRole(str, Enum):
